@@ -1,7 +1,7 @@
 # acwriting
 
    [![pip](./data/pip.svg)](https://pypi.org/project/pip/)
-   [![LicenseMIT](./data/LicenseMIT.svg)](./LICENSE.txt)
+   [![LicenseMIT](https://github.com/Yoki0/acwriting/blob/master/data/LicenseMIT.svg)](./LICENSE.txt)
    [![pyversion](./data/pyversion.svg)](https://github.com/Yoki0/acwriting)
    
    
