@@ -1,8 +1,6 @@
 # acwriting
 
-
-.. image:: ./data/pip.svg
-   :target: https://pypi.org/project/timeline-generation/
+   ![pip](./data/pip.svg) <href target =https://pypi.org/project/timeline-generation>
    
    
 ## Introduction
