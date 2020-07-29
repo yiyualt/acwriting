@@ -5,7 +5,8 @@ with open("README.md", "r") as f:
     long_description = f.read()
 
 setup(
-    name="acwriting",  # Replace with your own username
+    name="yu_example",
+    version = "0.2",
     author="Yi Yu",
     author_email="q1499114179@gmail.com",
     description="A set of python modules for academic writing",
