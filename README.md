@@ -1,6 +1,9 @@
 # acwriting
 
-   [![pip](./data/pip.svg)](https://pypi.org/project/timeline-generation")
+   [![pip](./data/pip.svg)](https://pypi.org/project/pip/)
+   [![LicenseMIT](./data/LicenseMIT.svg)](./LICENSE.txt)
+   [![pyversion](./data/pyversion.svg)](https://github.com/Yoki0/acwriting)
+   
    
    
 ## Introduction
