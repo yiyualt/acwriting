@@ -37,10 +37,7 @@ Find most suitable examples sentence of the given english word/phrase
     p = Phafind()
     text = "best knowledge"
     result = p.find(text)
-    print(result)
-  ['To our best knowledge, it is still an open challenge.', 
- 
-]
+    ['To our <font color="green"> best knowledge </font>, it is still an open challenge.', 'B', 'D']
 ```
 
 ## Installation
