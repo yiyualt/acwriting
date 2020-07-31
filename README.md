@@ -31,7 +31,7 @@ So, let's get started!
 
 Find most suitable examples sentence of the given english word/phrase
 
-```
+```//python
 
     >>> from acwriting.phafind import Phafind
     >>> p = Phafind()
