@@ -29,6 +29,14 @@ So, let's get started!
 
 ## Simple example
 
+Find most suitable examples sentence of the given english word/phrase
+
+    >>> from acwriting.phafind import Phafind
+    >>> p = Phafind()
+    >>> text = "best knowledge"
+    >>> result = p.find(text)
+    ['To our <font color="green"> best knowledge </font>, it is still an open challenge.', 'B', 'D']
+
 
 ## Installation
 If you use pip, install the latest version of acwriting by:
