@@ -16,6 +16,7 @@ Short answer is, it is a Python package for the English writings, designed espec
 It can:
 * Translate Chinese from/to English ( Using py-googletrans package, original project link: https://github.com/ssut/py-googletrans)
 * Find Synonym / Antonym of the given english word ( Using PyDictionary package, original project link: https://github.com/geekpradd/PyDictionary)
+* Transfer Python math formulas into Latex format expression (Using latexify package, original project link: https://github.com/odashi/latexify_py )
 * Find most suitable example sentence of the given english word/phrase
 * Given the writing intention,e.g. "introduce something","state the shortcoming of something","write conclusion",etc, 
 the system outputs the most suitable phrases and sentence templates.
