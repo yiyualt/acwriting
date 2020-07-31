@@ -2,7 +2,7 @@ import unittest
 try:
 	from .__init__ import PyDictionary #Python 3
 except:
-	from __init__ import PyDictionary
+	from .__init__ import PyDictionary
 
 dictionary=PyDictionary()
 

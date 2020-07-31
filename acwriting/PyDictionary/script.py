@@ -2,7 +2,7 @@ import click
 try:
     from .core import *
 except:
-    from core import *
+    from .core import *
     
 @click.command()
 @click.option('--mode','-m',default="meaning",help="Mode of Script [meaning, antonym, synonym]")
