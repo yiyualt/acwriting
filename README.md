@@ -33,11 +33,12 @@ Find most suitable examples sentence of the given english word/phrase
 
 ```python
 
-    from acwriting.phafind import Phafind
-    p = Phafind()
-    text = "best knowledge"
-    result = p.find(text)
-    ['To our <font color="green"> best knowledge </font>, it is still an open challenge.', 'B', 'D']
+from acwriting.phafind import Phafind
+p = Phafind()
+text = "best knowledge"
+result = p.find(text)
+print(result)
+['To our best <span style="color:green">best knowledge </span>, it is still an open challenge.', 'B', 'D']
 ```
 
 ## Installation
