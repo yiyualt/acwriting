@@ -13,7 +13,7 @@ If yes, you are in the right place! Acwriting is actually what you want!
 What is acwriting?
 
 Short answer is, it is a Python package for the English writings, designed especially for academic writings.
-It can do :
+It can:
 * Translate Chinese from/to English
 * Find Synonym / Antonym of the given english word
 * Find most suitable example sentence of the given english word/phrase
