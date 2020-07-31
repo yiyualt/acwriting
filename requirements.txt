@@ -1,2 +1,5 @@
 httpcore
 httpx
+nltk
+goslate
+bs4

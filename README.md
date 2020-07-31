@@ -14,8 +14,8 @@ What is acwriting?
 
 Short answer is, it is a Python package for the English writings, designed especially for academic writings.
 It can:
-* Translate Chinese from/to English
-* Find Synonym / Antonym of the given english word
+* Translate Chinese from/to English ( Using py-googletrans package, original project link: https://github.com/ssut/py-googletrans)
+* Find Synonym / Antonym of the given english word ( Using PyDictionary package, original project link: https://github.com/geekpradd/PyDictionary)
 * Find most suitable example sentence of the given english word/phrase
 * Given the writing intention,e.g. "introduce something","state the shortcoming of something","write conclusion",etc, 
 the system outputs the most suitable phrases and sentence templates.
