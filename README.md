@@ -37,7 +37,11 @@ Find most suitable examples sentence of the given english word/phrase
     >>> p = Phafind()
     >>> text = "best knowledge"
     >>> result = p.find(text)
-    ['To our best knowledge, it is still an open challenge.', 'B', 'D']
+    ['1. To our best knowledge, it is still an open challenge.',
+     '2. In the old days, one sought a fatwa from the sheikh who had the best knowledge.',
+     '3. I feel now that we have the best knowledge to help people.',
+     '4. So what's our best knowledge?',
+     '5. This, to our best knowledge, was never been investigated before.']
 ```
 
 ## Installation
