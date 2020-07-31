@@ -20,7 +20,7 @@ It can:
 * Find most suitable example sentence of the given english word/phrase
 * Given the writing intention,e.g. "introduce something","state the shortcoming of something","write conclusion",etc, 
 the system outputs the most suitable phrases and sentence templates.
-* Given the english sentence you intend to express, the system automatically corrects the sentence's errors and transfer it into formal & academic style expression.
+* Given the English sentence you intend to express, the system automatically corrects the sentence's errors and transfer it into formal & academic style expression.
 
 So, let's get started!
 
@@ -35,13 +35,49 @@ Find most suitable examples sentence of the given english word/phrase
 
     >>> from acwriting.phafind import Phafind
     >>> p = Phafind()
-    >>> text = "best knowledge"
-    >>> result = p.find(text)
+    >>> phase = "best knowledge"
+    >>> result = p.find(phase)
+    >>> print(result[0:5])
     ['1. To our best knowledge, it is still an open challenge.',
      '2. In the old days, one sought a fatwa from the sheikh who had the best knowledge.',
      '3. I feel now that we have the best knowledge to help people.',
      '4. So what's our best knowledge?',
      '5. This, to our best knowledge, was never been investigated before.']
+```
+
+Given the writing intention,e.g. "introduce something","state the shortcoming of something","write conclusion",etc, the system outputs the most suitable phrases and sentence templates.
+
+```python
+
+    >>> from acwriting.senfind import Senfind
+    >>> s = Senfind()
+    >>> intention = "compare two things"
+    >>> result = s.find(intention)
+    >>> print(result[0:5])
+    ['1. X is different from Y in a number of respects.',
+     '2. X differs from Y in a number of important ways.',
+     '3. Both X and Y share a number of key features.',
+     '4. These results are similar to those reported by xxx',
+     '5. In contrast to earlier findings, however, no evidence of X was detected.']
+```
+
+Given the English sentence you intend to express, the system automatically corrects the sentence's errors and transfer it into formal & academic style expression.
+(The precision of the results will come later.)
+```python
+
+    >>> from acwriting.autotrans import Autotrans
+    >>> my_auto = Autotrans()
+    >>> style = "acdemic style"
+    >>> text = "There has many problems"
+    >>> result = my_auto.transfer(text, style)
+    >>> print("original sentence":, text)
+    "There has many problems"
+    >>> print("after corrected:",result)
+    ['It has a lot of defects',
+     'It has proven to be problematic',
+     'It has a lot of issues,',
+     'There are many problems,']
+     
 ```
 
 ## Installation
