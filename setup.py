@@ -5,11 +5,11 @@ with open("README.md", "r") as f:
     long_description = f.read()
 
 setup(
-    name="yu_example",
+    name= "acwrite",
     version = "0.2",
     author="Yi Yu",
     author_email="q1499114179@gmail.com",
-    description="A set of python modules for academic writing",
+    description="A python package for writing academic papers",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/Yoki0/acwriting",
