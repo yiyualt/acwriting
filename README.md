@@ -25,7 +25,7 @@ the system outputs the most suitable phrases and sentence templates.
 So, let's get started!
 
 ## TODO
-* How to realize autocorrelation 
+* How to realize autocorrect 
 * Autocomplete funciton
 * Embed Autocomplete function into the system
 
