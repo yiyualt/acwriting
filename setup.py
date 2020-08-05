@@ -6,7 +6,7 @@ with open("README.md", "r") as f:
 
 setup(
     name= "acwrite",
-    version = "0.2",
+    version = "0.9",
     author="Yi Yu",
     author_email="q1499114179@gmail.com",
     description="A python package for writing academic papers",
@@ -20,4 +20,5 @@ setup(
     "Operating System :: OS Independent",
     ],
     python_requires='>=3.6',
+    scripts=['bin/acword']
     )
