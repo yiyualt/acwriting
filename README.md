@@ -82,6 +82,9 @@ Given the English sentence you intend to express, the system automatically corre
      
 ```
 
+You can also use command line to use it.
+
+
 ## Installation
 If you use pip, install the latest version of acwriting by:
 
